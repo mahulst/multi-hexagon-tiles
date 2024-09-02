@@ -2,13 +2,10 @@ const allHexParts = [0, 1, 2, 3, 4, 5]
 let drawCoords = true
 let shape = [
   { hex: { row: 3, col: 6 }, parts: [0] },
-  //{ hex: { row: 2, col: 7 }, parts: allHexParts },
-  //{ hex: { row: 2, col: 8 }, parts: allHexParts },
-  //{ hex: { row: 1, col: 9 }, parts: allHexParts },
+  { hex: { row: 2, col: 7 }, parts: allHexParts },
+  { hex: { row: 2, col: 8 }, parts: allHexParts },
+  { hex: { row: 1, col: 9 }, parts: allHexParts },
   { hex: { row: 3, col: 7 }, parts: [3] },
-  { hex: { row: 4, col: 8 }, parts: [0] },
-  //        { hex: { row: 5, col: 2 }, parts: [0] },
-  //        { hex: { row: 7, col: 2 }, parts: [2] },
 ]
 var HexDirection
 ;(function (HexDirection) {

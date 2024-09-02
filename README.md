@@ -1,5 +1,6 @@
 # Multi hexagon tiles
 Repo to proof of concept mutliple hexagon spanning tiles for procedural generation of cities.
+![alt text](./example.png)
 
 # How to run
 It's a self contained javascript application with no build step.
